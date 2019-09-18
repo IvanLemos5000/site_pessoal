@@ -36,26 +36,24 @@
 span{
   font-size: 50px;
   color: #007239;
+  position: fixed;
+  left: 1%;
 }
 
-.mainContent{
-  width: 100%;
+.main{
+    background-image: url('../img/logo_html_css_js.jpeg');
+    background-repeat: no-repeat;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
 }
-
-
-#image {
-  transition: margin-left .5s;
-  width: 1500px;
-  height: 750px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  opacity: 0.6;
-  position: relative;
-  background-position: center;
-  display: table;
-  margin: 0 auto;
-}
-
 
 
 @media screen and (max-height: 450px) {
