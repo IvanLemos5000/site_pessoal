@@ -5,7 +5,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ffff;
+  background-color: #b3d5c4;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -15,14 +15,14 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #007239;
+  color: #ffff;
   display: block;
   transition: 0.3s;
 }
 
 .sidebarMenu a:hover {
-  color: #ffff;
-  background-color: #64af8a
+  color: #007239;
+  background-color: #ffff;
 }
 
 .sidebarMenu .closebtn {
@@ -38,10 +38,25 @@ span{
   color: #007239;
 }
 
-#mainContent {
-  transition: margin-left .5s;
-  padding: 20px;
+.mainContent{
+  width: 100%;
 }
+
+
+#image {
+  transition: margin-left .5s;
+  width: 1500px;
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.6;
+  position: relative;
+  background-position: center;
+  display: table;
+  margin: 0 auto;
+}
+
+
 
 @media screen and (max-height: 450px) {
   .sidebarMenu {padding-top: 15px;}
