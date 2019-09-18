@@ -55,7 +55,7 @@ span{
     background-size: cover;
 }
 
-.content p{
+.contentPrincipal p{
   width: 25%;
   padding: 6% 28%;
   margin: 10%;
@@ -65,7 +65,7 @@ span{
   font-weight: bold;
 }
 
-.contentSobre p{
+.contentSubItens p{
   width: 25%;
   padding-left: 28%;
   margin-left: 10%;
@@ -73,6 +73,10 @@ span{
   text-align: center;
   color: #000000;
   font-weight: bold;
+}
+
+#git{
+  width: 300px;
 }
 
 @media screen and (max-height: 450px) {
